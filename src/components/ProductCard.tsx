@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity, Dimensions } from 'react-native';
 import { Product } from '../types/product';
-
+// checking
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../redux/cartSlice';
 
