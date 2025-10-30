@@ -1,39 +1,3 @@
-// import React from 'react';
-// import { View, Text, Image, StyleSheet, TouchableOpacity, Dimensions } from 'react-native';
-// import { Product } from '../types/product';
-
-// const { width } = Dimensions.get('window');
-
-// interface ProductCardProps {
-//   item: Product;
-//   fullWidth?: boolean;
-// }
-
-// const ProductCard: React.FC<ProductCardProps> = ({ item, fullWidth = false }) => {
-//   return (
-//     <View style={[styles.card, fullWidth && styles.fullWidthCard]}>
-//       <Image source={{ uri: item.image }} style={[styles.image, fullWidth && styles.fullImage]} />
-
-//       <View style={styles.info}>
-//         <Text style={styles.label}>{fullWidth ? 'BEST CHOICE' : 'BEST SELLER'}</Text>
-//         <Text numberOfLines={1} style={styles.title}>
-//           {item.title}
-//         </Text>
-//         <View style={styles.priceRow}>
-//           <Text style={styles.price}>${item.price.toFixed(2)}</Text>
-//           {!fullWidth && (
-//             <TouchableOpacity style={styles.addButton}>
-//               <Text style={styles.addText}>+</Text>
-//             </TouchableOpacity>
-//           )}
-//         </View>
-//       </View>
-//     </View>
-//   );
-// };
-
-// export default ProductCard;
-
 import React from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity, Dimensions } from 'react-native';
 import { Product } from '../types/product';
