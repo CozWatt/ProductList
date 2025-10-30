@@ -1,0 +1,19 @@
+import { StyleSheet, Text, View,Image, StatusBar, useColorScheme } from 'react-native'
+import React from 'react'
+
+export default function HeaderComponent() {
+  return (
+    <View>
+        <View style={styles.title}>
+      <Image source={require('./assets/blacklogo.png')}/>
+      </View>
+    </View>
+  )
+}
+
+const styles = StyleSheet.create({
+    title : {
+        marginTop : StatusBar.currentHeight,
+        alignItems : 'center',
+    }
+})

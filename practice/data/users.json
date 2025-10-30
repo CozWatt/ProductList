@@ -1,0 +1,31 @@
+[
+    {
+        "id": "1",
+        "name": "Anas",
+        "studies": {
+            "school": "kakatiya",
+            "collage": "chakra",
+            "Btech": "aits"
+        }
+    },
+
+        {
+        "id": "2",
+        "name": "Abu",
+        "studies": {
+            "school": "kakatiya",
+            "collage": "chakra",
+            "Btech": "aits"
+        }
+    },
+
+        {
+        "id": "3",
+        "name": "Ajas",
+        "studies": {
+            "school": "kakatiya",
+            "collage": "chakra",
+            "Btech": "aits"
+        }
+    }
+]
